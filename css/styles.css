@@ -1,0 +1,66 @@
+/* Tyylit taulukolle ja sen soluille */
+h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Tyylit taulukolle */
+/* Tyylit taulukolle ja sen soluille */
+table, th, td {
+    border: 2px solid white; /* Valkoinen reuna */
+    border-collapse: separate; /* Erottaaksemme reunat */
+    border-radius: 10px; /* Pyöristetään kulmat */
+  }
+  
+  /* Taulukolle leveys */
+  table {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 5px; /* Lisää väliä solujen välille */
+  }
+  
+  /* Vuorotteleva taustaväri joka toiselle riville */
+  table tr:nth-child(even) {
+    background-color: #f7ebab; /* Vaaleampi taustaväri */
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: #f7ebab; /* Valkoinen taustaväri */
+  }
+  
+  /* Lisää täytettä (padding) soluille */
+  table td {
+    padding: 15px; /* Lisää tilaa solun sisälle */
+    line-height: 1.5; /* Rivin korkeus, joka tekee riveistä tilavammat */
+    text-align: center; /* Keskitetään teksti soluihin */
+  }
+  
+  /* Tyylit p-elementille */
+  p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Tyylit painikkeelle */
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Otsikon keskuspaikkaus */
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+  }
